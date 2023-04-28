@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3914FEBD29FB7864005ACCBF /* swiftui_camp_fire_login_uiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FEBC29FB7864005ACCBF /* swiftui_camp_fire_login_uiApp.swift */; };
+		3914FEBF29FB7864005ACCBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FEBE29FB7864005ACCBF /* ContentView.swift */; };
+		3914FEC129FB7866005ACCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3914FEC029FB7866005ACCBF /* Assets.xcassets */; };
+		3914FEC429FB7866005ACCBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3914FEC329FB7866005ACCBF /* Preview Assets.xcassets */; };
+		3914FECC29FB7A92005ACCBF /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FECB29FB7A92005ACCBF /* IntroView.swift */; };
+		3914FECF29FB7DA1005ACCBF /* starsAndMoonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FECE29FB7DA1005ACCBF /* starsAndMoonViews.swift */; };
+		3914FED229FB7F9C005ACCBF /* extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FED129FB7F9C005ACCBF /* extenstion.swift */; };
+		3914FED429FB8ACB005ACCBF /* campTentFireAndTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FED329FB8ACB005ACCBF /* campTentFireAndTextView.swift */; };
+		3914FED729FB8F09005ACCBF /* FireImageStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FED629FB8F09005ACCBF /* FireImageStage.swift */; };
+		3914FED929FB99FD005ACCBF /* FireImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3914FED829FB99FD005ACCBF /* FireImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3914FEB929FB7864005ACCBF /* swiftui_camp_fire_login_ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui_camp_fire_login_ui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3914FEBC29FB7864005ACCBF /* swiftui_camp_fire_login_uiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_camp_fire_login_uiApp.swift; sourceTree = "<group>"; };
+		3914FEBE29FB7864005ACCBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3914FEC029FB7866005ACCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3914FEC329FB7866005ACCBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3914FECB29FB7A92005ACCBF /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		3914FECE29FB7DA1005ACCBF /* starsAndMoonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starsAndMoonViews.swift; sourceTree = "<group>"; };
+		3914FED129FB7F9C005ACCBF /* extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extenstion.swift; sourceTree = "<group>"; };
+		3914FED329FB8ACB005ACCBF /* campTentFireAndTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campTentFireAndTextView.swift; sourceTree = "<group>"; };
+		3914FED629FB8F09005ACCBF /* FireImageStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireImageStage.swift; sourceTree = "<group>"; };
+		3914FED829FB99FD005ACCBF /* FireImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireImageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3914FEB629FB7864005ACCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3914FEB029FB7864005ACCBF = {
+			isa = PBXGroup;
+			children = (
+				3914FEBB29FB7864005ACCBF /* swiftui_camp_fire_login_ui */,
+				3914FEBA29FB7864005ACCBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3914FEBA29FB7864005ACCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3914FEB929FB7864005ACCBF /* swiftui_camp_fire_login_ui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3914FEBB29FB7864005ACCBF /* swiftui_camp_fire_login_ui */ = {
+			isa = PBXGroup;
+			children = (
+				3914FED529FB8EF8005ACCBF /* Enum */,
+				3914FED029FB7F8C005ACCBF /* extension */,
+				3914FEBC29FB7864005ACCBF /* swiftui_camp_fire_login_uiApp.swift */,
+				3914FECA29FB7A77005ACCBF /* Views */,
+				3914FECD29FB7D2F005ACCBF /* components */,
+				3914FEBE29FB7864005ACCBF /* ContentView.swift */,
+				3914FEC029FB7866005ACCBF /* Assets.xcassets */,
+				3914FEC229FB7866005ACCBF /* Preview Content */,
+			);
+			path = swiftui_camp_fire_login_ui;
+			sourceTree = "<group>";
+		};
+		3914FEC229FB7866005ACCBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3914FEC329FB7866005ACCBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3914FECA29FB7A77005ACCBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3914FECB29FB7A92005ACCBF /* IntroView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3914FECD29FB7D2F005ACCBF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				3914FECE29FB7DA1005ACCBF /* starsAndMoonViews.swift */,
+				3914FED329FB8ACB005ACCBF /* campTentFireAndTextView.swift */,
+				3914FED829FB99FD005ACCBF /* FireImageView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		3914FED029FB7F8C005ACCBF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3914FED129FB7F9C005ACCBF /* extenstion.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		3914FED529FB8EF8005ACCBF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				3914FED629FB8F09005ACCBF /* FireImageStage.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3914FEB829FB7864005ACCBF /* swiftui_camp_fire_login_ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3914FEC729FB7866005ACCBF /* Build configuration list for PBXNativeTarget "swiftui_camp_fire_login_ui" */;
+			buildPhases = (
+				3914FEB529FB7864005ACCBF /* Sources */,
+				3914FEB629FB7864005ACCBF /* Frameworks */,
+				3914FEB729FB7864005ACCBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftui_camp_fire_login_ui;
+			productName = swiftui_camp_fire_login_ui;
+			productReference = 3914FEB929FB7864005ACCBF /* swiftui_camp_fire_login_ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3914FEB129FB7864005ACCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3914FEB829FB7864005ACCBF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3914FEB429FB7864005ACCBF /* Build configuration list for PBXProject "swiftui_camp_fire_login_ui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3914FEB029FB7864005ACCBF;
+			productRefGroup = 3914FEBA29FB7864005ACCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3914FEB829FB7864005ACCBF /* swiftui_camp_fire_login_ui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3914FEB729FB7864005ACCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3914FEC429FB7866005ACCBF /* Preview Assets.xcassets in Resources */,
+				3914FEC129FB7866005ACCBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3914FEB529FB7864005ACCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3914FEBF29FB7864005ACCBF /* ContentView.swift in Sources */,
+				3914FED429FB8ACB005ACCBF /* campTentFireAndTextView.swift in Sources */,
+				3914FED929FB99FD005ACCBF /* FireImageView.swift in Sources */,
+				3914FEBD29FB7864005ACCBF /* swiftui_camp_fire_login_uiApp.swift in Sources */,
+				3914FED729FB8F09005ACCBF /* FireImageStage.swift in Sources */,
+				3914FECF29FB7DA1005ACCBF /* starsAndMoonViews.swift in Sources */,
+				3914FED229FB7F9C005ACCBF /* extenstion.swift in Sources */,
+				3914FECC29FB7A92005ACCBF /* IntroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3914FEC529FB7866005ACCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3914FEC629FB7866005ACCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3914FEC829FB7866005ACCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_camp_fire_login_ui/Preview Content\"";
+				DEVELOPMENT_TEAM = R88QX5B8GT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kodx.swiftui-camp-fire-login-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3914FEC929FB7866005ACCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui_camp_fire_login_ui/Preview Content\"";
+				DEVELOPMENT_TEAM = R88QX5B8GT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kodx.swiftui-camp-fire-login-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3914FEB429FB7864005ACCBF /* Build configuration list for PBXProject "swiftui_camp_fire_login_ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3914FEC529FB7866005ACCBF /* Debug */,
+				3914FEC629FB7866005ACCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3914FEC729FB7866005ACCBF /* Build configuration list for PBXNativeTarget "swiftui_camp_fire_login_ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3914FEC829FB7866005ACCBF /* Debug */,
+				3914FEC929FB7866005ACCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3914FEB129FB7864005ACCBF /* Project object */;
+}
