@@ -16,8 +16,7 @@ struct campTentFireAndTextView: View {
                     .frame(width: 280, height: 170, alignment: .leading)
                     .offset(x: 40, y: -45)
 
-                FireImageView()
-                    .offset(x: -40)
+                FireImageView().offset(x: -40)
             }
 
             Spacer().frame(height: 40)
@@ -58,18 +57,16 @@ struct campTentFireAndTextView: View {
                             .foregroundColor(.white)
                     }
             }
-            
+
             Spacer().frame(height: 10)
-            
+
             Ellipse().fill(.black.opacity(0.4)).frame(width: 143, height: 12)
-            
 
             Spacer()
         }
         .frame(width: UIScreen.screenWidth * 0.90, height: UIScreen.screenHeight * 0.65)
         .foregroundColor(Color.clear)
         .padding(.horizontal, 20)
-//        Spacer().frame(height: 10)
     }
 }
 
