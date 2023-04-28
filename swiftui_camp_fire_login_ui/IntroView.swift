@@ -15,7 +15,6 @@ struct IntroView: View {
 
             VStack() {
                 startAndMoonViews()
-
                 campTentFireAndTextView()
             }
         }
