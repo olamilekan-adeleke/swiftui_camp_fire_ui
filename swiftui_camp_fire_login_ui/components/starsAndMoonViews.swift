@@ -20,11 +20,7 @@ struct startAndMoonViews: View {
                 .resizable()
                 .frame(width: 70, height: 70)
                 .offset(x: 120, y: -30)
-//                .rotationEffect(Angle(degrees: rotate ? 360 : 0.0))
                 .rotation3DEffect(.degrees(360), axis: (x: 1, y: 1, z: 0))
-//                .animation(.linear(duration: 8).repeatForever(autoreverses: false), value: rotate)
-//                .onAppear { self.rotate = true }
-//                .onDisappear { self.rotate = false }
 
             VStack {
                 Spacer()

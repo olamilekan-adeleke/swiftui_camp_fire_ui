@@ -22,8 +22,6 @@ struct campTentFireAndTextView: View {
             Spacer().frame(height: 40)
 
             VStack(alignment: .leading) {
-                Spacer().frame(width: .infinity, height: 0)
-
                 Text("Camp-tastic!")
                     .font(.system(size: 30))
                     .fontWeight(.semibold)
